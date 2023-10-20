@@ -7,7 +7,11 @@ import { getCellState } from "./getCellState";
  * @param field {number[][]} - состояние поля
  * @return number - число живых соседей
  */
-export function getNumOfAliveNeighbours(column:number, row:number, field: Array<Array<number>>): number {
+export function getNumOfAliveNeighbours(
+  column: number,
+  row: number,
+  field: Array<Array<number>>,
+): number {
   let neighbours = 0;
 
   for (let j = column - 1; j <= column + 1; j += 1) {

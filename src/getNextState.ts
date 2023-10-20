@@ -7,7 +7,9 @@ import { getNewCellState } from "./getNewCellState";
  * @param field {number[][]} - состояние поля
  * @return number[][] - новое состояние поля
  */
-export function getNextState(field: Array<Array<number>>): Array<Array<number>> {
+export function getNextState(
+  field: Array<Array<number>>,
+): Array<Array<number>> {
   // return field.map((row, rowIndex) =>
   //   {
   //     return row.map((cell, cellIndex) =>
@@ -25,6 +27,6 @@ export function getNextState(field: Array<Array<number>>): Array<Array<number>> 
       const currentState = getCellState(field, cellIndex, rowIndex);
       const newState = getNewCellState(currentState, an);
       return newState;
-    })
+    }),
   );
 }

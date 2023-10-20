@@ -6,9 +6,13 @@
  * @returns void
  */
 // @ts-ignore
-export function drawField(htmlElement: Element, field: Array<Array<number>>, onCellClick: Function): void {
-  const rowIterator = (row: Array<number> , rowIndex: number) => {
-    return `<tr>${row
+export function drawField(
+  htmlElement: Element,
+  field: Array<Array<number>>,
+  onCellClick: Function,
+): void {
+  const rowIterator = (row: Array<number>, rowIndex: number) =>
+    `<tr>${row
       .map((cell: number, columnIndex: number) => {
         if (cell === 1) {
           return `<td 
@@ -24,13 +28,12 @@ export function drawField(htmlElement: Element, field: Array<Array<number>>, onC
       style="background-color:#FFFFFF; height:10px; width:10px;"></td>`;
       })
       .join("")}</tr>`;
-  };
 
   const table = `<table border=1>${field.map(rowIterator).join("")}</table>`;
 
   // eslint-disable-next-line no-param-reassign
   htmlElement.innerHTML = table;
-  console.log(htmlElement.innerHTML)
+  console.log(htmlElement.innerHTML);
 
   htmlElement.querySelector("table")!.addEventListener("click", (ev: Event) => {
     const clickedElement = ev.target;

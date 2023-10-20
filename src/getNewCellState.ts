@@ -1,4 +1,7 @@
-export function getNewCellState(currentCellState: number, numOfAliveNeighbours: number): number {
+export function getNewCellState(
+  currentCellState: number,
+  numOfAliveNeighbours: number,
+): number {
   if (numOfAliveNeighbours === 3) {
     return 1;
   }

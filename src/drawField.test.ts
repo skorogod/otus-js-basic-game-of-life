@@ -45,11 +45,15 @@ describe("drawField", () => {
         [1, 1, 0],
       ];
       drawField(el, field, onCellClick);
-      const cell1 = el.querySelector('.cell[data-x="1"][data-y="2"]') as HTMLElement;
+      const cell1 = el.querySelector(
+        '.cell[data-x="1"][data-y="2"]',
+      ) as HTMLElement;
       cell1.click();
       expect(onCellClick).toHaveBeenCalledWith(1, 2);
 
-      const cell2 = el.querySelector('.cell[data-x="2"][data-y="0"]') as HTMLElement;
+      const cell2 = el.querySelector(
+        '.cell[data-x="2"][data-y="0"]',
+      ) as HTMLElement;
       cell2.click();
       expect(onCellClick).toHaveBeenCalledWith(2, 0);
     });
@@ -62,7 +66,9 @@ describe("drawField", () => {
       ];
       drawField(el, field, onCellClick);
       drawField(el, field, onCellClick);
-      const cell1 = el.querySelector('.cell[data-x="1"][data-y="2"]') as HTMLElement;
+      const cell1 = el.querySelector(
+        '.cell[data-x="1"][data-y="2"]',
+      ) as HTMLElement;
       cell1.click();
       expect(onCellClick).toHaveBeenCalledWith(1, 2);
       expect(onCellClick).toHaveBeenCalledTimes(1);

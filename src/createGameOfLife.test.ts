@@ -6,13 +6,9 @@
 import fs from "fs";
 import path from "path";
 import { createGameOfLife } from "./createGameOfLife";
-import * as draw from "./drawField"
+import * as draw from "./drawField";
 
-import {jest} from "@jest/globals"
-
-const html = fs.readFileSync(
-  path.resolve(__dirname, "../index.html")
-);
+const html = fs.readFileSync(path.resolve(__dirname, "../index.html"));
 
 const sleep = (x: number) => new Promise((resolve) => setTimeout(resolve, x));
 
@@ -46,43 +42,53 @@ describe("createGameOfLife", () => {
       expect(element.querySelector("button")?.innerHTML).toBe("Stop");
     });
     it("draws field", () => {
-      jest.spyOn(draw, 'drawField').mockImplementation((fieldEl: Element, field: Array<Array<number>>) => {
-        fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
-      });
+      jest
+        .spyOn(draw, "drawField")
+        .mockImplementation((fieldEl: Element, field: Array<Array<number>>) => {
+          fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
+        });
       createGameOfLife(2, 2, element);
       expect(element.querySelector(".field-wrapper")!.innerHTML).toBe(
         `drawField(${JSON.stringify([
           [0, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
     });
     it("redraw field on interaction with it", () => {
       let onCellClick;
-      jest.spyOn(draw, 'drawField').mockImplementation((fieldEl: Element, field: Array<Array<number>>, cellClickHandler: Function) => {
-        onCellClick = cellClickHandler;
-        fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
-      });
+      jest
+        .spyOn(draw, "drawField")
+        .mockImplementation(
+          (
+            fieldEl: Element,
+            field: Array<Array<number>>,
+            cellClickHandler: Function,
+          ) => {
+            onCellClick = cellClickHandler;
+            fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
+          },
+        );
       createGameOfLife(2, 2, element);
       expect(element.querySelector(".field-wrapper")!.innerHTML).toBe(
         `drawField(${JSON.stringify([
           [0, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
       onCellClick!(0, 0);
       expect(element.querySelector(".field-wrapper")!.innerHTML).toBe(
         `drawField(${JSON.stringify([
           [1, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
       onCellClick!(0, 0);
       expect(element.querySelector(".field-wrapper")!.innerHTML).toBe(
         `drawField(${JSON.stringify([
           [0, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
       onCellClick!(0, 1);
       onCellClick!(1, 1);
@@ -90,15 +96,23 @@ describe("createGameOfLife", () => {
         `drawField(${JSON.stringify([
           [0, 0],
           [1, 1],
-        ])})`
+        ])})`,
       );
     });
     it("on start it runs 1sec timer to update state", async () => {
       let onCellClick;
-      jest.spyOn(draw, 'drawField').mockImplementation((fieldEl: Element, field: Array<Array<number>>, cellClickHandler: Function) => {
-        onCellClick = cellClickHandler;
-        fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
-      });
+      jest
+        .spyOn(draw, "drawField")
+        .mockImplementation(
+          (
+            fieldEl: Element,
+            field: Array<Array<number>>,
+            cellClickHandler: Function,
+          ) => {
+            onCellClick = cellClickHandler;
+            fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
+          },
+        );
       createGameOfLife(2, 2, element);
       onCellClick!(0, 0);
       element.querySelector("button")!.click();
@@ -106,22 +120,30 @@ describe("createGameOfLife", () => {
         `drawField(${JSON.stringify([
           [1, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
       await sleep(1000);
       expect(element.querySelector(".field-wrapper")!.innerHTML).toBe(
         `drawField(${JSON.stringify([
           [0, 0],
           [0, 0],
-        ])})`
+        ])})`,
       );
     });
     it("stops game with alert, when none alive", async () => {
       let onCellClick;
-      jest.spyOn(draw, 'drawField').mockImplementation((fieldEl: Element, field: Array<Array<number>>, cellClickHandler: Function) => {
-        onCellClick = cellClickHandler;
-        fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
-      });
+      jest
+        .spyOn(draw, "drawField")
+        .mockImplementation(
+          (
+            fieldEl: Element,
+            field: Array<Array<number>>,
+            cellClickHandler: Function,
+          ) => {
+            onCellClick = cellClickHandler;
+            fieldEl.innerHTML = `drawField(${JSON.stringify(field)})`;
+          },
+        );
       createGameOfLife(2, 2, element);
       onCellClick!(0, 0);
       element.querySelector("button")!.click();

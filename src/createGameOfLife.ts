@@ -11,9 +11,15 @@ import { isAnyoneAlive } from "./isAnyoneAlive";
  * @param htmlElement {HTMLElement} - элемент, в котором будет отрисована игра
  * @returns void
  */
-export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Element): void {
-  const speedInput: HTMLInputElement | null = document.querySelector('.speed-input');
-  const speedValueField: HTMLElement | null = document.querySelector('.speed-value');
+export function createGameOfLife(
+  sizeX: number,
+  sizeY: number,
+  htmlElement: Element,
+): void {
+  const speedInput: HTMLInputElement | null =
+    document.querySelector(".speed-input");
+  const speedValueField: HTMLElement | null =
+    document.querySelector(".speed-value");
   let timeout: number;
 
   if (!speedInput || !speedValueField) {
@@ -23,15 +29,15 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
   speedValueField.innerHTML = speedInput?.value;
   timeout = Number(speedInput.value);
 
-  speedInput.addEventListener('input', function() {
+  speedInput.addEventListener("input", () => {
     if (speedValueField) {
       speedValueField.innerHTML = speedInput.value;
       timeout = Number(speedInput.value);
     }
-  })
+  });
 
   let gameIsRunning = false;
-  let timer:  ReturnType<typeof setInterval>;
+  let timer: ReturnType<typeof setInterval>;
 
   // Создать блок для поля
   // Создать кнопку управления игрой
@@ -39,13 +45,13 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
   const fieldWrapper = htmlElement.querySelector(".field-wrapper") as Element;
   const button = htmlElement.querySelector("button");
 
-  if(!button) {
+  if (!button) {
     throw new Error("Button not found");
   }
 
   // Создать поле заданного размера
   let field = Array.from({ length: sizeY }).map(() =>
-    Array.from({ length: sizeX }).fill(0)
+    Array.from({ length: sizeX }).fill(0),
   ) as Array<Array<number>>;
 
   console.log(field);
@@ -62,7 +68,7 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
   // - поменять его состояние
   // - перерисовать поле
   function stopGame(): void {
-    if(!button) {
+    if (!button) {
       throw new Error("Button not found");
     }
     gameIsRunning = false;
@@ -70,8 +76,8 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
     // При клике на кнопке `Stop` остановить таймер
     clearInterval(timer);
   }
-  function startGame(): void{
-    if(!button) {
+  function startGame(): void {
+    if (!button) {
       throw new Error("Button not found");
     }
     // При клике по кнопке старт
@@ -93,7 +99,7 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
         alert("Death on the block");
         stopGame();
       }
-    }, 1000/timeout);
+    }, 1000 / timeout);
   }
 
   button.addEventListener("click", () => {
