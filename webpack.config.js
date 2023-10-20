@@ -1,62 +1,57 @@
-// Generated using webpack-cli https://github.com/webpack/webpack-cli
-
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const webpack = require("webpack");
+const path = require("path");
 
 const isProduction = process.env.NODE_ENV == 'production';
 
-
 const config = {
-    entry: './src/index.js',
+    entry: {
+      main: path.resolve(__dirname, "./src/index.ts"),
+    },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, "./dist"),
+      filename: "[name].bundle.js",
+    },
+    resolve: {
+      extensions: [".js", ".ts"],
+    },
+    devtool: 'inline-source-map',
+    module: {
+      rules: [
+        {
+          test: /\.(?:js|mjs|cjs|ts)$/,
+          exclude: /node_modules/,
+          use: {
+            loader: 'babel-loader'
+          }
+        }
+      ],
     },
     devServer: {
-        open: true,
-        host: 'localhost',
+      static: {
+        directory: path.join(__dirname, 'dist'),
+      },
+      open:true,
+      compress: true,
+      hot: true,
+      port: 9000,
     },
     plugins: [
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            filename: 'index.html'
-        }),
-
-        // Add your plugins here
-        // Learn more about plugins from https://webpack.js.org/configuration/plugins/
+      new HtmlWebpackPlugin({ template: "index.html" }),
+      new CleanWebpackPlugin(),
+      new webpack.HotModuleReplacementPlugin(),
     ],
-    module: {
-        rules: [
-            {
-                test: /\.html$/,
-                loader: 'html-loader'
-            },
-            {
-                test: /\.css$/,
-                loader: ['style-loader', 'css-loader']
-            },
-            {
-                test: /\.(js|jsx)$/i,
-                exclude: /node_modules/,
-                loader: 'babel-loader',
-            },
-            {
-                test: /\.(eot|svg|ttf|woff|woff2|png|jpg|gif)$/i,
-                type: 'asset',
-            },
-
-            // Add your rules for custom modules here
-            // Learn more about loaders from https://webpack.js.org/loaders/
-        ],
-    },
 };
 
 module.exports = () => {
+
     if (isProduction) {
-        config.mode = 'production';
-        
-        
-    } else {
-        config.mode = 'development';
+        config.mode = "production";
     }
-    return config;
-};
+    else {
+        config.mode = "development";
+    }
+
+    return config
+}
