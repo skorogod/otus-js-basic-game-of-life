@@ -4,6 +4,8 @@ import { drawField } from "./drawField";
 import { getNextState } from "./getNextState";
 import { isAnyoneAlive } from "./isAnyoneAlive";
 
+console.log("test")
+
 /**
  * Создание игры Жизнь
  * @param sizeX {number} - число колонок
