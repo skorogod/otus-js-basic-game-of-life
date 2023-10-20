@@ -1,0 +1,1132 @@
+{
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\createGameOfLife.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\createGameOfLife.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 15, "column": 46 },
+        "end": { "line": 15, "column": 84 }
+      },
+      "1": {
+        "start": { "line": 16, "column": 46 },
+        "end": { "line": 16, "column": 84 }
+      },
+      "2": {
+        "start": { "line": 19, "column": 2 },
+        "end": { "line": 21, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 20, "column": 4 },
+        "end": { "line": 20, "column": 51 }
+      },
+      "4": {
+        "start": { "line": 23, "column": 2 },
+        "end": { "line": 23, "column": 48 }
+      },
+      "5": {
+        "start": { "line": 24, "column": 2 },
+        "end": { "line": 24, "column": 37 }
+      },
+      "6": {
+        "start": { "line": 26, "column": 2 },
+        "end": { "line": 31, "column": 4 }
+      },
+      "7": {
+        "start": { "line": 27, "column": 4 },
+        "end": { "line": 30, "column": 5 }
+      },
+      "8": {
+        "start": { "line": 28, "column": 6 },
+        "end": { "line": 28, "column": 51 }
+      },
+      "9": {
+        "start": { "line": 29, "column": 6 },
+        "end": { "line": 29, "column": 41 }
+      },
+      "10": {
+        "start": { "line": 33, "column": 22 },
+        "end": { "line": 33, "column": 27 }
+      },
+      "11": {
+        "start": { "line": 38, "column": 2 },
+        "end": { "line": 38, "column": 84 }
+      },
+      "12": {
+        "start": { "line": 39, "column": 23 },
+        "end": { "line": 39, "column": 77 }
+      },
+      "13": {
+        "start": { "line": 40, "column": 17 },
+        "end": { "line": 40, "column": 52 }
+      },
+      "14": {
+        "start": { "line": 42, "column": 2 },
+        "end": { "line": 44, "column": 3 }
+      },
+      "15": {
+        "start": { "line": 43, "column": 4 },
+        "end": { "line": 43, "column": 40 }
+      },
+      "16": {
+        "start": { "line": 47, "column": 14 },
+        "end": { "line": 49, "column": 27 }
+      },
+      "17": {
+        "start": { "line": 48, "column": 4 },
+        "end": { "line": 48, "column": 41 }
+      },
+      "18": {
+        "start": { "line": 51, "column": 2 },
+        "end": { "line": 51, "column": 21 }
+      },
+      "19": {
+        "start": { "line": 53, "column": 27 },
+        "end": { "line": 56, "column": 3 }
+      },
+      "20": {
+        "start": { "line": 54, "column": 4 },
+        "end": { "line": 54, "column": 44 }
+      },
+      "21": {
+        "start": { "line": 55, "column": 4 },
+        "end": { "line": 55, "column": 53 }
+      },
+      "22": {
+        "start": { "line": 59, "column": 2 },
+        "end": { "line": 59, "column": 51 }
+      },
+      "23": {
+        "start": { "line": 60, "column": 2 },
+        "end": { "line": 60, "column": 38 }
+      },
+      "24": {
+        "start": { "line": 65, "column": 4 },
+        "end": { "line": 67, "column": 5 }
+      },
+      "25": {
+        "start": { "line": 66, "column": 6 },
+        "end": { "line": 66, "column": 42 }
+      },
+      "26": {
+        "start": { "line": 68, "column": 4 },
+        "end": { "line": 68, "column": 26 }
+      },
+      "27": {
+        "start": { "line": 69, "column": 4 },
+        "end": { "line": 69, "column": 31 }
+      },
+      "28": {
+        "start": { "line": 71, "column": 4 },
+        "end": { "line": 71, "column": 25 }
+      },
+      "29": {
+        "start": { "line": 74, "column": 4 },
+        "end": { "line": 76, "column": 5 }
+      },
+      "30": {
+        "start": { "line": 75, "column": 6 },
+        "end": { "line": 75, "column": 42 }
+      },
+      "31": {
+        "start": { "line": 79, "column": 4 },
+        "end": { "line": 79, "column": 25 }
+      },
+      "32": {
+        "start": { "line": 80, "column": 4 },
+        "end": { "line": 80, "column": 30 }
+      },
+      "33": {
+        "start": { "line": 82, "column": 4 },
+        "end": { "line": 96, "column": 21 }
+      },
+      "34": {
+        "start": { "line": 90, "column": 6 },
+        "end": { "line": 90, "column": 34 }
+      },
+      "35": {
+        "start": { "line": 91, "column": 6 },
+        "end": { "line": 91, "column": 55 }
+      },
+      "36": {
+        "start": { "line": 92, "column": 6 },
+        "end": { "line": 95, "column": 7 }
+      },
+      "37": {
+        "start": { "line": 93, "column": 8 },
+        "end": { "line": 93, "column": 36 }
+      },
+      "38": {
+        "start": { "line": 94, "column": 8 },
+        "end": { "line": 94, "column": 19 }
+      },
+      "39": {
+        "start": { "line": 99, "column": 2 },
+        "end": { "line": 105, "column": 5 }
+      },
+      "40": {
+        "start": { "line": 100, "column": 4 },
+        "end": { "line": 104, "column": 5 }
+      },
+      "41": {
+        "start": { "line": 101, "column": 6 },
+        "end": { "line": 101, "column": 18 }
+      },
+      "42": {
+        "start": { "line": 103, "column": 6 },
+        "end": { "line": 103, "column": 17 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "createGameOfLife",
+        "decl": {
+          "start": { "line": 14, "column": 16 },
+          "end": { "line": 14, "column": 32 }
+        },
+        "loc": {
+          "start": { "line": 14, "column": 91 },
+          "end": { "line": 106, "column": 1 }
+        },
+        "line": 14
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 26, "column": 39 },
+          "end": { "line": 26, "column": 40 }
+        },
+        "loc": {
+          "start": { "line": 26, "column": 50 },
+          "end": { "line": 31, "column": 3 }
+        },
+        "line": 26
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 47, "column": 48 },
+          "end": { "line": 47, "column": 49 }
+        },
+        "loc": {
+          "start": { "line": 48, "column": 4 },
+          "end": { "line": 48, "column": 41 }
+        },
+        "line": 48
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 53, "column": 27 },
+          "end": { "line": 53, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 53, "column": 53 },
+          "end": { "line": 56, "column": 3 }
+        },
+        "line": 53
+      },
+      "4": {
+        "name": "stopGame",
+        "decl": {
+          "start": { "line": 64, "column": 11 },
+          "end": { "line": 64, "column": 19 }
+        },
+        "loc": {
+          "start": { "line": 64, "column": 28 },
+          "end": { "line": 72, "column": 3 }
+        },
+        "line": 64
+      },
+      "5": {
+        "name": "startGame",
+        "decl": {
+          "start": { "line": 73, "column": 11 },
+          "end": { "line": 73, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 73, "column": 28 },
+          "end": { "line": 97, "column": 3 }
+        },
+        "line": 73
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": { "line": 82, "column": 24 },
+          "end": { "line": 82, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 82, "column": 30 },
+          "end": { "line": 96, "column": 5 }
+        },
+        "line": 82
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": { "line": 99, "column": 35 },
+          "end": { "line": 99, "column": 36 }
+        },
+        "loc": {
+          "start": { "line": 99, "column": 41 },
+          "end": { "line": 105, "column": 3 }
+        },
+        "line": 99
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 19, "column": 2 },
+          "end": { "line": 21, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 19, "column": 2 },
+            "end": { "line": 21, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 19
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 19, "column": 6 },
+          "end": { "line": 19, "column": 37 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 19, "column": 6 },
+            "end": { "line": 19, "column": 17 }
+          },
+          {
+            "start": { "line": 19, "column": 21 },
+            "end": { "line": 19, "column": 37 }
+          }
+        ],
+        "line": 19
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 27, "column": 4 },
+          "end": { "line": 30, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 27, "column": 4 },
+            "end": { "line": 30, "column": 5 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 27
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 42, "column": 2 },
+          "end": { "line": 44, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 42, "column": 2 },
+            "end": { "line": 44, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 42
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 54, "column": 18 },
+          "end": { "line": 54, "column": 43 }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": { "line": 54, "column": 38 },
+            "end": { "line": 54, "column": 39 }
+          },
+          {
+            "start": { "line": 54, "column": 42 },
+            "end": { "line": 54, "column": 43 }
+          }
+        ],
+        "line": 54
+      },
+      "5": {
+        "loc": {
+          "start": { "line": 65, "column": 4 },
+          "end": { "line": 67, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 65, "column": 4 },
+            "end": { "line": 67, "column": 5 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 65
+      },
+      "6": {
+        "loc": {
+          "start": { "line": 74, "column": 4 },
+          "end": { "line": 76, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 74, "column": 4 },
+            "end": { "line": 76, "column": 5 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 74
+      },
+      "7": {
+        "loc": {
+          "start": { "line": 92, "column": 6 },
+          "end": { "line": 95, "column": 7 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 92, "column": 6 },
+            "end": { "line": 95, "column": 7 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 92
+      },
+      "8": {
+        "loc": {
+          "start": { "line": 100, "column": 4 },
+          "end": { "line": 104, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 100, "column": 4 },
+            "end": { "line": 104, "column": 5 }
+          },
+          {
+            "start": { "line": 102, "column": 11 },
+            "end": { "line": 104, "column": 5 }
+          }
+        ],
+        "line": 100
+      }
+    },
+    "s": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 0,
+      "4": 6,
+      "5": 6,
+      "6": 6,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 6,
+      "11": 6,
+      "12": 6,
+      "13": 6,
+      "14": 6,
+      "15": 0,
+      "16": 6,
+      "17": 28,
+      "18": 6,
+      "19": 6,
+      "20": 6,
+      "21": 6,
+      "22": 6,
+      "23": 6,
+      "24": 4,
+      "25": 0,
+      "26": 4,
+      "27": 4,
+      "28": 4,
+      "29": 4,
+      "30": 0,
+      "31": 4,
+      "32": 4,
+      "33": 4,
+      "34": 3,
+      "35": 3,
+      "36": 3,
+      "37": 3,
+      "38": 3,
+      "39": 6,
+      "40": 5,
+      "41": 4,
+      "42": 1
+    },
+    "f": { "0": 6, "1": 0, "2": 28, "3": 6, "4": 4, "5": 4, "6": 3, "7": 5 },
+    "b": {
+      "0": [0, 6],
+      "1": [6, 6],
+      "2": [0, 0],
+      "3": [0, 6],
+      "4": [5, 1],
+      "5": [0, 4],
+      "6": [0, 4],
+      "7": [3, 0],
+      "8": [4, 1]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "385a8f64d164d26a3ca0e2bcc1a175c53e97e91b"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\drawField.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\drawField.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 10, "column": 22 },
+        "end": { "line": 27, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 11, "column": 4 },
+        "end": { "line": 26, "column": 23 }
+      },
+      "2": {
+        "start": { "line": 13, "column": 8 },
+        "end": { "line": 19, "column": 9 }
+      },
+      "3": {
+        "start": { "line": 14, "column": 10 },
+        "end": { "line": 18, "column": 74 }
+      },
+      "4": {
+        "start": { "line": 20, "column": 8 },
+        "end": { "line": 24, "column": 72 }
+      },
+      "5": {
+        "start": { "line": 29, "column": 16 },
+        "end": { "line": 29, "column": 76 }
+      },
+      "6": {
+        "start": { "line": 32, "column": 2 },
+        "end": { "line": 32, "column": 32 }
+      },
+      "7": {
+        "start": { "line": 33, "column": 2 },
+        "end": { "line": 33, "column": 36 }
+      },
+      "8": {
+        "start": { "line": 35, "column": 2 },
+        "end": { "line": 44, "column": 5 }
+      },
+      "9": {
+        "start": { "line": 36, "column": 27 },
+        "end": { "line": 36, "column": 36 }
+      },
+      "10": {
+        "start": { "line": 38, "column": 14 },
+        "end": { "line": 38, "column": 51 }
+      },
+      "11": {
+        "start": { "line": 40, "column": 14 },
+        "end": { "line": 40, "column": 51 }
+      },
+      "12": {
+        "start": { "line": 41, "column": 4 },
+        "end": { "line": 43, "column": 5 }
+      },
+      "13": {
+        "start": { "line": 42, "column": 6 },
+        "end": { "line": 42, "column": 40 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "drawField",
+        "decl": {
+          "start": { "line": 9, "column": 16 },
+          "end": { "line": 9, "column": 25 }
+        },
+        "loc": {
+          "start": { "line": 9, "column": 106 },
+          "end": { "line": 45, "column": 1 }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 10, "column": 22 },
+          "end": { "line": 10, "column": 23 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 65 },
+          "end": { "line": 27, "column": 3 }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 12, "column": 11 },
+          "end": { "line": 12, "column": 12 }
+        },
+        "loc": {
+          "start": { "line": 12, "column": 50 },
+          "end": { "line": 25, "column": 7 }
+        },
+        "line": 12
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": { "line": 35, "column": 64 },
+          "end": { "line": 35, "column": 65 }
+        },
+        "loc": {
+          "start": { "line": 35, "column": 79 },
+          "end": { "line": 44, "column": 3 }
+        },
+        "line": 35
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 13, "column": 8 },
+          "end": { "line": 19, "column": 9 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 13, "column": 8 },
+            "end": { "line": 19, "column": 9 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 13
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 41, "column": 4 },
+          "end": { "line": 43, "column": 5 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 41, "column": 4 },
+            "end": { "line": 43, "column": 5 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 41
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 41, "column": 8 },
+          "end": { "line": 41, "column": 24 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 41, "column": 8 },
+            "end": { "line": 41, "column": 14 }
+          },
+          {
+            "start": { "line": 41, "column": 18 },
+            "end": { "line": 41, "column": 24 }
+          }
+        ],
+        "line": 41
+      }
+    },
+    "s": {
+      "0": 8,
+      "1": 34,
+      "2": 238,
+      "3": 13,
+      "4": 225,
+      "5": 8,
+      "6": 8,
+      "7": 8,
+      "8": 8,
+      "9": 3,
+      "10": 3,
+      "11": 3,
+      "12": 3,
+      "13": 3
+    },
+    "f": { "0": 8, "1": 34, "2": 238, "3": 3 },
+    "b": { "0": [13, 225], "1": [3, 0], "2": [3, 3] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "58aa5fc99ffdcf67581561e717bf4e5aaa7a416d"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getCellState.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getCellState.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 9, "column": 14 },
+        "end": { "line": 9, "column": 22 }
+      },
+      "1": {
+        "start": { "line": 10, "column": 2 },
+        "end": { "line": 12, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 11, "column": 4 },
+        "end": { "line": 11, "column": 13 }
+      },
+      "3": {
+        "start": { "line": 13, "column": 15 },
+        "end": { "line": 13, "column": 21 }
+      },
+      "4": {
+        "start": { "line": 14, "column": 2 },
+        "end": { "line": 16, "column": 3 }
+      },
+      "5": {
+        "start": { "line": 15, "column": 4 },
+        "end": { "line": 15, "column": 13 }
+      },
+      "6": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 17, "column": 14 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "getCellState",
+        "decl": {
+          "start": { "line": 8, "column": 16 },
+          "end": { "line": 8, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 8, "column": 78 },
+          "end": { "line": 18, "column": 1 }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 10, "column": 2 },
+          "end": { "line": 12, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 10, "column": 2 },
+            "end": { "line": 12, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 10
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 14, "column": 2 },
+          "end": { "line": 16, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 14, "column": 2 },
+            "end": { "line": 16, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 14
+      }
+    },
+    "s": {
+      "0": 1311,
+      "1": 1311,
+      "2": 206,
+      "3": 1105,
+      "4": 1105,
+      "5": 149,
+      "6": 956
+    },
+    "f": { "0": 1311 },
+    "b": { "0": [206, 1105], "1": [149, 956] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "6377172026df543aaabf45c4d68bb7e547d5f856"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNewCellState.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNewCellState.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 2, "column": 2 },
+        "end": { "line": 4, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 3, "column": 4 },
+        "end": { "line": 3, "column": 13 }
+      },
+      "2": {
+        "start": { "line": 5, "column": 2 },
+        "end": { "line": 7, "column": 3 }
+      },
+      "3": {
+        "start": { "line": 6, "column": 4 },
+        "end": { "line": 6, "column": 13 }
+      },
+      "4": {
+        "start": { "line": 8, "column": 2 },
+        "end": { "line": 10, "column": 3 }
+      },
+      "5": {
+        "start": { "line": 9, "column": 4 },
+        "end": { "line": 9, "column": 13 }
+      },
+      "6": {
+        "start": { "line": 11, "column": 2 },
+        "end": { "line": 11, "column": 11 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "getNewCellState",
+        "decl": {
+          "start": { "line": 1, "column": 16 },
+          "end": { "line": 1, "column": 31 }
+        },
+        "loc": {
+          "start": { "line": 1, "column": 96 },
+          "end": { "line": 12, "column": 1 }
+        },
+        "line": 1
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 2, "column": 2 },
+          "end": { "line": 4, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 2, "column": 2 },
+            "end": { "line": 4, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 2
+      },
+      "1": {
+        "loc": {
+          "start": { "line": 5, "column": 2 },
+          "end": { "line": 7, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 5, "column": 2 },
+            "end": { "line": 7, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 5
+      },
+      "2": {
+        "loc": {
+          "start": { "line": 5, "column": 6 },
+          "end": { "line": 5, "column": 58 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 5, "column": 6 },
+            "end": { "line": 5, "column": 30 }
+          },
+          {
+            "start": { "line": 5, "column": 34 },
+            "end": { "line": 5, "column": 58 }
+          }
+        ],
+        "line": 5
+      },
+      "3": {
+        "loc": {
+          "start": { "line": 8, "column": 2 },
+          "end": { "line": 10, "column": 3 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 8, "column": 2 },
+            "end": { "line": 10, "column": 3 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 8
+      },
+      "4": {
+        "loc": {
+          "start": { "line": 8, "column": 6 },
+          "end": { "line": 8, "column": 58 }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": { "line": 8, "column": 6 },
+            "end": { "line": 8, "column": 32 }
+          },
+          {
+            "start": { "line": 8, "column": 36 },
+            "end": { "line": 8, "column": 58 }
+          }
+        ],
+        "line": 8
+      }
+    },
+    "s": { "0": 152, "1": 11, "2": 141, "3": 136, "4": 5, "5": 4, "6": 1 },
+    "f": { "0": 152 },
+    "b": {
+      "0": [11, 141],
+      "1": [136, 5],
+      "2": [141, 127],
+      "3": [4, 1],
+      "4": [5, 5]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "a3382afa6bf9b57c319c61a426e0a78d43d57011"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNextState.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNextState.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 22, "column": 2 },
+        "end": { "line": 29, "column": 4 }
+      },
+      "1": {
+        "start": { "line": 23, "column": 4 },
+        "end": { "line": 28, "column": 6 }
+      },
+      "2": {
+        "start": { "line": 24, "column": 17 },
+        "end": { "line": 24, "column": 68 }
+      },
+      "3": {
+        "start": { "line": 25, "column": 27 },
+        "end": { "line": 25, "column": 67 }
+      },
+      "4": {
+        "start": { "line": 26, "column": 23 },
+        "end": { "line": 26, "column": 56 }
+      },
+      "5": {
+        "start": { "line": 27, "column": 6 },
+        "end": { "line": 27, "column": 22 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "getNextState",
+        "decl": {
+          "start": { "line": 10, "column": 16 },
+          "end": { "line": 10, "column": 28 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 80 },
+          "end": { "line": 30, "column": 1 }
+        },
+        "line": 10
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": { "line": 22, "column": 19 },
+          "end": { "line": 22, "column": 20 }
+        },
+        "loc": {
+          "start": { "line": 23, "column": 4 },
+          "end": { "line": 28, "column": 6 }
+        },
+        "line": 23
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": { "line": 23, "column": 12 },
+          "end": { "line": 23, "column": 13 }
+        },
+        "loc": {
+          "start": { "line": 23, "column": 33 },
+          "end": { "line": 28, "column": 5 }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {},
+    "s": { "0": 11, "1": 28, "2": 134, "3": 134, "4": 134, "5": 134 },
+    "f": { "0": 11, "1": 28, "2": 134 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f96ab16e04d1c2817afd57b3be4f21f580bbec25"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNumOfAliveNeighbours.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\getNumOfAliveNeighbours.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 11, "column": 19 },
+        "end": { "line": 11, "column": 20 }
+      },
+      "1": {
+        "start": { "line": 13, "column": 2 },
+        "end": { "line": 15, "column": 3 }
+      },
+      "2": {
+        "start": { "line": 13, "column": 15 },
+        "end": { "line": 13, "column": 25 }
+      },
+      "3": {
+        "start": { "line": 14, "column": 4 },
+        "end": { "line": 14, "column": 58 }
+      },
+      "4": {
+        "start": { "line": 17, "column": 2 },
+        "end": { "line": 19, "column": 3 }
+      },
+      "5": {
+        "start": { "line": 17, "column": 15 },
+        "end": { "line": 17, "column": 25 }
+      },
+      "6": {
+        "start": { "line": 18, "column": 4 },
+        "end": { "line": 18, "column": 58 }
+      },
+      "7": {
+        "start": { "line": 21, "column": 2 },
+        "end": { "line": 21, "column": 61 }
+      },
+      "8": {
+        "start": { "line": 22, "column": 2 },
+        "end": { "line": 22, "column": 61 }
+      },
+      "9": {
+        "start": { "line": 24, "column": 2 },
+        "end": { "line": 24, "column": 20 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "getNumOfAliveNeighbours",
+        "decl": {
+          "start": { "line": 10, "column": 16 },
+          "end": { "line": 10, "column": 39 }
+        },
+        "loc": {
+          "start": { "line": 10, "column": 104 },
+          "end": { "line": 25, "column": 1 }
+        },
+        "line": 10
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 143,
+      "1": 143,
+      "2": 143,
+      "3": 429,
+      "4": 143,
+      "5": 143,
+      "6": 429,
+      "7": 143,
+      "8": 143,
+      "9": 143
+    },
+    "f": { "0": 143 },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "132d55059366eda616ace5ee3bf56b883d2e7887"
+  },
+  "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\isAnyoneAlive.ts": {
+    "path": "C:\\Users\\igor\\Desktop\\OTUS\\FullStackDeveloper\\WorkDir\\JavaScript-Basic\\otus-js-basic-game-of-life\\src\\isAnyoneAlive.ts",
+    "statementMap": {
+      "0": {
+        "start": { "line": 7, "column": 2 },
+        "end": { "line": 15, "column": 3 }
+      },
+      "1": {
+        "start": { "line": 7, "column": 15 },
+        "end": { "line": 7, "column": 16 }
+      },
+      "2": {
+        "start": { "line": 8, "column": 16 },
+        "end": { "line": 8, "column": 24 }
+      },
+      "3": {
+        "start": { "line": 9, "column": 4 },
+        "end": { "line": 14, "column": 5 }
+      },
+      "4": {
+        "start": { "line": 9, "column": 17 },
+        "end": { "line": 9, "column": 18 }
+      },
+      "5": {
+        "start": { "line": 10, "column": 19 },
+        "end": { "line": 10, "column": 25 }
+      },
+      "6": {
+        "start": { "line": 11, "column": 6 },
+        "end": { "line": 13, "column": 7 }
+      },
+      "7": {
+        "start": { "line": 12, "column": 8 },
+        "end": { "line": 12, "column": 20 }
+      },
+      "8": {
+        "start": { "line": 16, "column": 2 },
+        "end": { "line": 16, "column": 15 }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "isAnyoneAlive",
+        "decl": {
+          "start": { "line": 6, "column": 16 },
+          "end": { "line": 6, "column": 29 }
+        },
+        "loc": {
+          "start": { "line": 6, "column": 68 },
+          "end": { "line": 17, "column": 1 }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": { "line": 11, "column": 6 },
+          "end": { "line": 13, "column": 7 }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": { "line": 11, "column": 6 },
+            "end": { "line": 13, "column": 7 }
+          },
+          { "start": {}, "end": {} }
+        ],
+        "line": 11
+      }
+    },
+    "s": {
+      "0": 12,
+      "1": 12,
+      "2": 23,
+      "3": 23,
+      "4": 23,
+      "5": 119,
+      "6": 119,
+      "7": 4,
+      "8": 8
+    },
+    "f": { "0": 12 },
+    "b": { "0": [4, 115] },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ae668cae38c49ed087c78ff972d308460203b5e6"
+  }
+}
