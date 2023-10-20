@@ -1,0 +1,41 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.params {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+
+    .param-title {
+        flex-basis: 100%;
+    }
+
+    .speed-input {
+        flex-basis: 80%;
+    }
+    .speed-value {
+        flex-basis: 10%;
+        margin-left: 0.5rem;
+        padding: 10px;
+        border: 2px solid;
+    }
+}
+
+.game-fields {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1.5rem;
+}
+
+

@@ -1,42 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1697834740187" clover="3.2.0">
-  <project timestamp="1697834740187" name="All files">
-    <metrics statements="82" coveredstatements="79" conditionals="34" coveredconditionals="29" methods="18" coveredmethods="18" elements="134" coveredelements="126" complexity="0" loc="82" ncloc="82" packages="1" files="7" classes="7"/>
+<coverage generated="1697842423253" clover="3.2.0">
+  <project timestamp="1697842423253" name="All files">
+    <metrics statements="92" coveredstatements="85" conditionals="40" coveredconditionals="32" methods="19" coveredmethods="18" elements="151" coveredelements="135" complexity="0" loc="92" ncloc="92" packages="1" files="7" classes="7"/>
     <file name="createGameOfLife.ts" path="C:\Users\igor\Desktop\OTUS\FullStackDeveloper\WorkDir\JavaScript-Basic\otus-js-basic-game-of-life\src\createGameOfLife.ts">
-      <metrics statements="33" coveredstatements="30" conditionals="12" coveredconditionals="8" methods="7" coveredmethods="7"/>
+      <metrics statements="43" coveredstatements="36" conditionals="18" coveredconditionals="11" methods="8" coveredmethods="7"/>
       <line num="15" count="6" type="stmt"/>
-      <line num="20" count="6" type="stmt"/>
-      <line num="21" count="6" type="stmt"/>
-      <line num="22" count="6" type="stmt"/>
-      <line num="24" count="6" type="cond" truecount="1" falsecount="1"/>
-      <line num="25" count="0" type="stmt"/>
-      <line num="30" count="6" type="stmt"/>
-      <line num="31" count="28" type="stmt"/>
-      <line num="34" count="6" type="stmt"/>
-      <line num="36" count="6" type="stmt"/>
-      <line num="37" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="16" count="6" type="stmt"/>
+      <line num="19" count="6" type="cond" truecount="3" falsecount="1"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="23" count="6" type="stmt"/>
+      <line num="24" count="6" type="stmt"/>
+      <line num="26" count="6" type="stmt"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="33" count="6" type="stmt"/>
       <line num="38" count="6" type="stmt"/>
-      <line num="42" count="6" type="stmt"/>
-      <line num="43" count="6" type="stmt"/>
-      <line num="48" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="49" count="0" type="stmt"/>
-      <line num="51" count="4" type="stmt"/>
-      <line num="52" count="4" type="stmt"/>
-      <line num="54" count="4" type="stmt"/>
-      <line num="57" count="4" type="cond" truecount="1" falsecount="1"/>
-      <line num="58" count="0" type="stmt"/>
-      <line num="62" count="4" type="stmt"/>
-      <line num="63" count="4" type="stmt"/>
-      <line num="65" count="4" type="stmt"/>
-      <line num="73" count="3" type="stmt"/>
-      <line num="74" count="3" type="stmt"/>
-      <line num="75" count="3" type="cond" truecount="1" falsecount="1"/>
-      <line num="76" count="3" type="stmt"/>
-      <line num="77" count="3" type="stmt"/>
-      <line num="82" count="6" type="stmt"/>
-      <line num="83" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="84" count="4" type="stmt"/>
-      <line num="86" count="1" type="stmt"/>
+      <line num="39" count="6" type="stmt"/>
+      <line num="40" count="6" type="stmt"/>
+      <line num="42" count="6" type="cond" truecount="1" falsecount="1"/>
+      <line num="43" count="0" type="stmt"/>
+      <line num="47" count="6" type="stmt"/>
+      <line num="48" count="28" type="stmt"/>
+      <line num="51" count="6" type="stmt"/>
+      <line num="53" count="6" type="stmt"/>
+      <line num="54" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="55" count="6" type="stmt"/>
+      <line num="59" count="6" type="stmt"/>
+      <line num="60" count="6" type="stmt"/>
+      <line num="65" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="66" count="0" type="stmt"/>
+      <line num="68" count="4" type="stmt"/>
+      <line num="69" count="4" type="stmt"/>
+      <line num="71" count="4" type="stmt"/>
+      <line num="74" count="4" type="cond" truecount="1" falsecount="1"/>
+      <line num="75" count="0" type="stmt"/>
+      <line num="79" count="4" type="stmt"/>
+      <line num="80" count="4" type="stmt"/>
+      <line num="82" count="4" type="stmt"/>
+      <line num="90" count="3" type="stmt"/>
+      <line num="91" count="3" type="stmt"/>
+      <line num="92" count="3" type="cond" truecount="1" falsecount="1"/>
+      <line num="93" count="3" type="stmt"/>
+      <line num="94" count="3" type="stmt"/>
+      <line num="99" count="6" type="stmt"/>
+      <line num="100" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="101" count="4" type="stmt"/>
+      <line num="103" count="1" type="stmt"/>
     </file>
     <file name="drawField.ts" path="C:\Users\igor\Desktop\OTUS\FullStackDeveloper\WorkDir\JavaScript-Basic\otus-js-basic-game-of-life\src\drawField.ts">
       <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>

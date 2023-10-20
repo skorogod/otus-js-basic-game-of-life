@@ -3,10 +3,16 @@
  */
 
 /* eslint-disable no-param-reassign */
+import fs from "fs";
+import path from "path";
 import { createGameOfLife } from "./createGameOfLife";
 import * as draw from "./drawField"
 
 import {jest} from "@jest/globals"
+
+const html = fs.readFileSync(
+  path.resolve(__dirname, "../index.html")
+);
 
 const sleep = (x: number) => new Promise((resolve) => setTimeout(resolve, x));
 
@@ -14,6 +20,7 @@ describe("createGameOfLife", () => {
   let element: HTMLElement;
   const originalAlert = window.alert;
   beforeEach(() => {
+    document.documentElement.innerHTML = html.toString();
     element = document.createElement("div");
     window.alert = jest.fn();
   });

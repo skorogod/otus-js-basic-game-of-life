@@ -20,6 +20,18 @@ const config = {
     module: {
       rules: [
         {
+            test: /\.s[ac]ss$/i,
+            use: ['style-loader', "css-loader", "postcss-loader", "sass-loader"],
+        },
+        {
+            test: /\.css$/i,
+            use: ["style-loader", "css-loader", "postcss-loader"],
+        },
+        {
+            test: /\.html$/,
+            use: "html-loader",
+        },
+        {
           test: /\.(?:js|mjs|cjs|ts)$/,
           exclude: /node_modules/,
           use: {

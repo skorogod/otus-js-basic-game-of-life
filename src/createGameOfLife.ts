@@ -4,8 +4,6 @@ import { drawField } from "./drawField";
 import { getNextState } from "./getNextState";
 import { isAnyoneAlive } from "./isAnyoneAlive";
 
-console.log("test")
-
 /**
  * Создание игры Жизнь
  * @param sizeX {number} - число колонок
@@ -14,6 +12,24 @@ console.log("test")
  * @returns void
  */
 export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Element): void {
+  const speedInput: HTMLInputElement | null = document.querySelector('.speed-input');
+  const speedValueField: HTMLElement | null = document.querySelector('.speed-value');
+  let timeout: number;
+
+  if (!speedInput || !speedValueField) {
+    throw new Error("speed input field not found");
+  }
+
+  speedValueField.innerHTML = speedInput?.value;
+  timeout = Number(speedInput.value);
+
+  speedInput.addEventListener('input', function() {
+    if (speedValueField) {
+      speedValueField.innerHTML = speedInput.value;
+      timeout = Number(speedInput.value);
+    }
+  })
+
   let gameIsRunning = false;
   let timer:  ReturnType<typeof setInterval>;
 
@@ -26,7 +42,6 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
   if(!button) {
     throw new Error("Button not found");
   }
-
 
   // Создать поле заданного размера
   let field = Array.from({ length: sizeY }).map(() =>
@@ -78,7 +93,7 @@ export function createGameOfLife(sizeX: number, sizeY: number, htmlElement: Elem
         alert("Death on the block");
         stopGame();
       }
-    }, 1000);
+    }, 1000/timeout);
   }
 
   button.addEventListener("click", () => {
