@@ -72,7 +72,7 @@ describe("getNumOfAliveNeighbours", () => {
       el.y
     }) in field ${JSON.stringify(el.field)}`, () => {
       expect(getNumOfAliveNeighbours(el.x, el.y, el.field)).toBe(
-        el.expectedResult
+        el.expectedResult,
       );
     });
   });

@@ -1,30 +1,38 @@
-name: Deploy to GithubPages
+name: NodeJS with Webpack
 
 on:
   push:
-    branches:
-      - master
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
-  deploy-to-gh-pages:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
 
-      - name: Install Packages
-        run: |
-          npm install
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
 
       - name: Build
         run: |
-          npm run build
+          npm install
+          npm run build:prod
 
-      - name: Deploy
-        # https://github.com/marketplace/actions/deploy-to-github-pages
-        uses: JamesIves/github-pages-deploy-action@3.6.2
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: dist # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          folder: dist # The folder the action should deploy.
